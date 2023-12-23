@@ -15,6 +15,8 @@ specifiers:
   eslint-plugin-vue: ^9.19.2
   husky: ^8.0.0
   lint-staged: ^15.2.0
+  pinia: ^2.1.7
+  pinia-plugin-persistedstate-2: ^2.0.14
   postcss: ^8.4.32
   pug: ^3.0.2
   sass: ^1.69.5
@@ -27,6 +29,8 @@ specifiers:
 dependencies:
   '@element-plus/icons-vue': 2.3.1_vue@3.3.13
   element-plus: 2.4.4_vue@3.3.13
+  pinia: 2.1.7_dembj2eby4ermcojoe7jay3m6m
+  pinia-plugin-persistedstate-2: 2.0.14_pinia@2.1.7
   vue: 3.3.13_typescript@5.3.3
 
 devDependencies:
@@ -1040,6 +1044,10 @@ packages:
     dependencies:
       '@vue/compiler-dom': 3.3.13
       '@vue/shared': 3.3.13
+
+  /@vue/devtools-api/6.5.1:
+    resolution: {integrity: sha512-+KpckaAQyfbvshdDW5xQylLni1asvNSGme1JFs8I1+/H5pHEhqUKMEQD/qn3Nx5+/nycBq11qAEi8lk+LXI2dA==}
+    dev: false
 
   /@vue/language-core/1.8.26_typescript@5.3.3:
     resolution: {integrity: sha512-9cmza/Y2YTiOnKZ0Mi9zsNn7Irw+aKirP+5LLWVSNaL3fjKJjW1cD3HGBckasY2RuVh4YycvdA9/Q6EBpVd/7Q==}
@@ -2919,6 +2927,33 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: true
 
+  /pinia-plugin-persistedstate-2/2.0.14_pinia@2.1.7:
+    resolution: {integrity: sha512-IsBTVhzaaJWm3woUPezW6cZYVkXML2PqTzBwGn9yfvSq4zc+jHAdBLfaOr7uOdIrVMMA12dLClrb6FBI4x6Zzw==}
+    peerDependencies:
+      pinia: ^2
+    dependencies:
+      pinia: 2.1.7_dembj2eby4ermcojoe7jay3m6m
+      shvl: 3.0.0
+    dev: false
+
+  /pinia/2.1.7_dembj2eby4ermcojoe7jay3m6m:
+    resolution: {integrity: sha512-+C2AHFtcFqjPih0zpYuvof37SFxMQ7OEG2zV9jRI12i9BOy3YQVAHwdKtyyc8pDcDyIc33WCIsZaCFWU7WWxGQ==}
+    peerDependencies:
+      '@vue/composition-api': ^1.4.0
+      typescript: '>=4.4.4'
+      vue: ^2.6.14 || ^3.3.0
+    peerDependenciesMeta:
+      '@vue/composition-api':
+        optional: true
+      typescript:
+        optional: true
+    dependencies:
+      '@vue/devtools-api': 6.5.1
+      typescript: 5.3.3
+      vue: 3.3.13_typescript@5.3.3
+      vue-demi: 0.14.6_vue@3.3.13
+    dev: false
+
   /pirates/4.0.6:
     resolution: {integrity: sha512-saLsH7WeYYPiD25LDuLRRY/i+6HaPYr6G1OUlN39otzkSTxKnubR9RTxS3/Kk50s1g2JTgFwWQDQyplC5/SHZg==}
     engines: {node: '>= 6'}
@@ -3293,6 +3328,10 @@ packages:
     resolution: {integrity: sha512-7++dFhtcx3353uBaq8DDR4NuxBetBzC7ZQOhmTQInHEd6bSrXdiEyzCvG07Z44UYdLShWUyXt5M/yhz8ekcb1A==}
     engines: {node: '>=8'}
     dev: true
+
+  /shvl/3.0.0:
+    resolution: {integrity: sha512-5IomAM3ykE/g9K9L6lhODc+TpCuN03rrhlboegeKyyfh66DDdpRD5JN37DYhNHH+RaYjiIDx64K/Ms/xQYOR5w==}
+    dev: false
 
   /signal-exit/3.0.7:
     resolution: {integrity: sha512-wnD2ZE+l+SPC/uoS0vXeE9L1+0wuaMqKlfz9AMUo38JsyLSBWSFcHR1Rri62LZc12vLr1gb3jl7iwQhgwpAbGQ==}
