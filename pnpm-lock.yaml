@@ -15,6 +15,7 @@ specifiers:
   eslint-plugin-vue: ^9.19.2
   husky: ^8.0.0
   lint-staged: ^15.2.0
+  normalize.css: ^8.0.1
   pinia: ^2.1.7
   pinia-plugin-persistedstate-2: ^2.0.14
   postcss: ^8.4.32
@@ -29,6 +30,7 @@ specifiers:
 dependencies:
   '@element-plus/icons-vue': 2.3.1_vue@3.3.13
   element-plus: 2.4.4_vue@3.3.13
+  normalize.css: 8.0.1
   pinia: 2.1.7_dembj2eby4ermcojoe7jay3m6m
   pinia-plugin-persistedstate-2: 2.0.14_pinia@2.1.7
   vue: 3.3.13_typescript@5.3.3
@@ -2753,6 +2755,10 @@ packages:
 
   /normalize-wheel-es/1.2.0:
     resolution: {integrity: sha512-Wj7+EJQ8mSuXr2iWfnujrimU35R2W4FAErEyTmJoJ7ucwTn2hOUSsRehMb5RSYkxXGTM7Y9QpvPmp++w5ftoJw==}
+    dev: false
+
+  /normalize.css/8.0.1:
+    resolution: {integrity: sha512-qizSNPO93t1YUuUhP22btGOo3chcvDFqFaj2TRybP0DMxkHOCTYwp3n34fel4a31ORXy4m1Xq0Gyqpb5m33qIg==}
     dev: false
 
   /npm-run-path/4.0.1:
