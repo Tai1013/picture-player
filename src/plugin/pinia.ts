@@ -4,7 +4,9 @@ import { createPersistedStatePlugin } from 'pinia-plugin-persistedstate-2'
 
 const install: Plugin = app => {
   const pinia = createPinia()
-  pinia.use(createPersistedStatePlugin())
+  pinia.use(createPersistedStatePlugin({
+    persist: false
+  }))
   app.use(pinia)
 }
 
