@@ -42,6 +42,7 @@ export default defineConfig(({ mode }) => {
     ],
     base: env.VITE_APP_BASE,
     build: {
+      outDir: 'docs',
       assetsDir: "assets",
       assetsInlineLimit: 4096,
       rollupOptions: {

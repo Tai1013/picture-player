@@ -3,7 +3,7 @@ import { computed } from "vue"
 import { ElRow } from "element-plus"
 import { HeicIconButton } from "@/components"
 import { usePlayerStore, useConfigStore, storeToRefs } from "@/stores"
-import { FilesService } from "@/services"
+// import { FilesService } from "@/services"
 import MoreButton from "./MoreButton.vue"
 
 const { mode } = storeToRefs(useConfigStore())
