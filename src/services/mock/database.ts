@@ -43,7 +43,7 @@ export const filesFoldersList: MockFilesFolders[] = [
             files: [
               {
                 name: "5jddx4.jpg",
-                path: "@/assets/images/5jddx4.jpg"
+                path: "/assets/images/5jddx4.jpg"
               }
             ]
           }
@@ -51,7 +51,7 @@ export const filesFoldersList: MockFilesFolders[] = [
         files: [
           {
             name: "JgRq0P.webp",
-            path: "@/assets/images/JgRq0P.webp"
+            path: "/assets/images/JgRq0P.webp"
           }
         ]
       }
@@ -59,11 +59,11 @@ export const filesFoldersList: MockFilesFolders[] = [
     files: [
       {
         name: "JgYq12.webp",
-        path: "@/assets/images/JgYq12.webp"
+        path: "/assets/images/JgYq12.webp"
       },
       {
         name: "JgY95X.webp",
-        path: "@/assets/images/JgY95X.webp"
+        path: "/assets/images/JgY95X.webp"
       }
     ]
   },
@@ -75,15 +75,15 @@ export const filesFoldersList: MockFilesFolders[] = [
     files: [
       {
         name: "HGJ5yNt.jpg",
-        path: "@/assets/images/HGJ5yNt.jpg"
+        path: "/assets/images/HGJ5yNt.jpg"
       },
       {
         name: "HGJWyOb.jpg",
-        path: "@/assets/images/HGJWyOb.jpg"
+        path: "/assets/images/HGJWyOb.jpg"
       },
       {
         name: "HGJXXr7.jpg",
-        path: "@/assets/images/HGJXXr7.jpg"
+        path: "/assets/images/HGJXXr7.jpg"
       }
     ]
   }

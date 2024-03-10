@@ -3,6 +3,7 @@ import { ref } from "vue"
 import { ElRow, ElDialog, ElImage } from "element-plus"
 import { HeicIconButton, HeicSvgIcon, HeicDropdown } from "@/components"
 import { useConfigStore, storeToRefs } from "@/stores"
+import { filePath } from '@/helper'
 
 const { information } = storeToRefs(useConfigStore())
 
@@ -49,7 +50,7 @@ const options: GlobalApp.DropdownOption[] = [
     <div class="about-info-container">
       <ElImage
         class="app-logo"
-        src="/favicon.ico"
+        :src="filePath('/favicon.ico')"
         :alt="information.displayName"
       />
       <p class="app-name">
