@@ -3,7 +3,6 @@ import { computed } from "vue"
 import { ElRow } from "element-plus"
 import { HeicSquareButton } from "@/components"
 import { useConfigStore, usePlayerStore, storeToRefs } from "@/stores"
-import { FilesService } from "@/services"
 
 const { isFullscreen } = storeToRefs(useConfigStore())
 const { toggleFullscreen } = useConfigStore()
@@ -12,7 +11,7 @@ const { pause, resume, playPrev, playNext } = usePlayerStore()
 
 const controlButtons = computed((): GlobalApp.SquareButtonType[] => [
   {
-    tooltip: isPlaying.value ? "pause" : "play",
+    tooltip: isPlaying.value ? "暫停" : "播放",
     icon: isPlaying.value ? "slideshow-pause" : "slideshow-play",
     color: isPlaying.value ? "" : "#548DDF",
     onClick: () => {
@@ -21,7 +20,7 @@ const controlButtons = computed((): GlobalApp.SquareButtonType[] => [
     }
   },
   {
-    tooltip: "prev",
+    tooltip: "上一張圖",
     icon: "slideshow-prev",
     onClick: () => {
       playPrev()
@@ -33,7 +32,7 @@ const controlButtons = computed((): GlobalApp.SquareButtonType[] => [
     class: "cursor-default"
   },
   {
-    tooltip: "next",
+    tooltip: "下一張圖",
     icon: "slideshow-next",
     onClick: () => {
       playNext()
@@ -45,16 +44,16 @@ const controlButtons = computed((): GlobalApp.SquareButtonType[] => [
     isTranslate: false,
     class: "cursor-default"
   },
+  // {
+  //   tooltip: "download",
+  //   icon: "slideshow-download",
+  //   onClick: () => {
+  //     const { path, name } = delayedCurrentFile.value
+  //     FilesService.postFileDownload(path, name)
+  //   }
+  // },
   {
-    tooltip: "download",
-    icon: "slideshow-download",
-    onClick: () => {
-      const { path, name } = delayedCurrentFile.value
-      FilesService.postFileDownload(path, name)
-    }
-  },
-  {
-    tooltip: isFullscreen.value ? "fullscreenExit" : "fullscreen",
+    tooltip: isFullscreen.value ? "離開全螢幕" : "全螢幕播放",
     iconSize: 24,
     icon: isFullscreen.value ? "player-fullscreen-exit" : "player-fullscreen",
     onClick: () => {
