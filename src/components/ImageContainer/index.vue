@@ -3,6 +3,7 @@ import type { PropType } from "vue"
 import type { DirectionType } from "@/configs/constant"
 import { ElImage } from "element-plus"
 import { HeicSvgIcon } from "@/components"
+import { filePath } from "@/helper"
 
 defineProps({
   file: {
@@ -35,7 +36,7 @@ defineProps({
     class="image-container"
   >
     <ElImage
-      :src="file.thumbnailImage"
+      :src="filePath(file.thumbnailImage)"
       fit="contain"
       loading="lazy"
       :class="{ 'name-hidden': nameVisable === false }"
