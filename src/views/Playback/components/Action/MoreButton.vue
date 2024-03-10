@@ -3,7 +3,7 @@ import { ref } from "vue"
 import { ElRow, ElDialog, ElImage } from "element-plus"
 import { HeicIconButton, HeicSvgIcon, HeicDropdown } from "@/components"
 import { useConfigStore, storeToRefs } from "@/stores"
-import { filePath } from '@/helper'
+import { filePath } from "@/helper"
 
 const { information } = storeToRefs(useConfigStore())
 
