@@ -20,10 +20,10 @@ const instanceResponse = <T>(data: T) => {
 }
 
 mock.onGet("/api/common_info").reply(200, instanceResponse({
-  is_active: [true, false][Math.floor(Math.random() * 2)],
+  is_active: false,
   display_name: "Picture Player",
   version: "5.0.0.1891",
-  support_file: "HEIC",
+  support_file: "Picture",
   is_show_cast: [true, false][Math.floor(Math.random() * 2)]
 }))
 
