@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
+        <g id="ic_header_download" stroke="#FFFFFF" stroke-width="1.6">
+            <line x1="8" y1="23.6568542" x2="24" y2="23.6568542" id="Line-3"></line>
+            <line x1="9" y1="14.5" x2="23" y2="14.5" id="Line-3-Copy"
+                transform="translate(16.000000, 14.500000) rotate(90.000000) translate(-16.000000, -14.500000) "></line>
+            <polyline id="Path-7" stroke-linejoin="round"
+                transform="translate(15.863961, 16.000000) scale(1, -1) rotate(-315.000000) translate(-15.863961, -16.000000) "
+                points="19.863961 12 11.863961 12 11.863961 20"></polyline>
+        </g>
+    </g>
+</svg>

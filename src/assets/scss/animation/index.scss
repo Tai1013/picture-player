@@ -1,0 +1,49 @@
+@import "./fade-out-fwd";
+@import "./bounce-in-top";
+@import "./bounce-in-right";
+@import "./slide-out-top";
+@import "./slide-out-bottom";
+@import "./slide-out-right";
+
+@mixin leaveEnterAnimation($name, $duration, $reverse) {
+  &-leave-active {
+    animation: $name $duration cubic-bezier(0.39, 0.575, 0.565, 1) both;
+
+    @if $reverse == leave {
+      animation-direction: reverse;
+    }
+  }
+
+  &-enter-active {
+    animation: $name $duration cubic-bezier(0.39, 0.575, 0.565, 1) both;
+    animation-delay: $duration;
+
+    @if $reverse == enter {
+      animation-direction: reverse;
+    }
+  }
+}
+
+.fade-out-fwd {
+  @include leaveEnterAnimation(fade-out-fwd, 0.5s, enter);
+}
+
+.bounce-in-top {
+  @include leaveEnterAnimation(bounce-in-top, 1.1s, leave);
+}
+
+.bounce-in-right {
+  @include leaveEnterAnimation(bounce-in-right, 1.1s, leave);
+}
+
+.slide-out-bottom {
+  @include leaveEnterAnimation(slide-out-bottom, 0.5s, enter);
+}
+
+.slide-out-right {
+  @include leaveEnterAnimation(slide-out-right, 0.5s, enter);
+}
+
+.slide-out-top {
+  @include leaveEnterAnimation(slide-out-top, 0.5s, enter);
+}

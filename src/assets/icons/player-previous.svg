@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon/viewer/previous">
+            <path
+                d="M13.1814683,8.36293667 L17.4486805,16.8973611 C17.6368628,17.2737256 17.4843109,17.7313813 17.1079464,17.9195636 C17.0021518,17.9724609 16.8854942,18 16.7672122,18 L8.2327878,18 C7.81199942,18 7.47088304,17.6588836 7.47088304,17.2380952 C7.47088304,17.1198133 7.49842216,17.0031557 7.55131946,16.8973611 L11.8185317,8.36293667 C12.0067139,7.9865721 12.4643696,7.83402022 12.8407342,8.0222025 C12.9881836,8.09592723 13.1077436,8.21548722 13.1814683,8.36293667 Z"
+                id="Triangle-Copy-2" fill="#FFFFFF"
+                transform="translate(12.500000, 12.500000) scale(-1, 1) rotate(-270.000000) translate(-12.500000, -12.500000) ">
+            </path>
+            <line x1="1" y1="12.5" x2="11.5" y2="12.5" id="Line-7-Copy" stroke="#FFFFFF" stroke-width="1.2"
+                stroke-linecap="round"
+                transform="translate(6.500000, 12.500000) scale(-1, 1) rotate(90.000000) translate(-6.500000, -12.500000) ">
+            </line>
+        </g>
+    </g>
+</svg>

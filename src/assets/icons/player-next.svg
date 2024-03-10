@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon/viewer/next">
+            <path
+                d="M12.1814683,8.36293667 L16.4486805,16.8973611 C16.6368628,17.2737256 16.4843109,17.7313813 16.1079464,17.9195636 C16.0021518,17.9724609 15.8854942,18 15.7672122,18 L7.2327878,18 C6.81199942,18 6.47088304,17.6588836 6.47088304,17.2380952 C6.47088304,17.1198133 6.49842216,17.0031557 6.55131946,16.8973611 L10.8185317,8.36293667 C11.0067139,7.9865721 11.4643696,7.83402022 11.8407342,8.0222025 C11.9881836,8.09592723 12.1077436,8.21548722 12.1814683,8.36293667 Z"
+                id="Triangle-Copy" fill="#FFFFFF"
+                transform="translate(11.500000, 12.500000) rotate(-270.000000) translate(-11.500000, -12.500000) ">
+            </path>
+            <line x1="12" y1="12.5" x2="22.5" y2="12.5" id="Line-7" stroke="#FFFFFF" stroke-width="1.2"
+                stroke-linecap="round"
+                transform="translate(17.500000, 12.500000) rotate(90.000000) translate(-17.500000, -12.500000) "></line>
+        </g>
+    </g>
+</svg>

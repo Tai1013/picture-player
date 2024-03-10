@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon/viewer/playlist" stroke="#FFFFFF" stroke-width="1.2">
+            <line x1="6" y1="6.5" x2="16.5" y2="6.5" id="Line-7" stroke-linecap="round"></line>
+            <line x1="6" y1="11.5" x2="11.75" y2="11.5" id="Line-7-Copy" stroke-linecap="round"></line>
+            <line x1="6" y1="16.5" x2="8.78571429" y2="16.5" id="Line-7-Copy-2" stroke-linecap="round"></line>
+            <g id="Group" transform="translate(10.000000, 8.000000)">
+                <path
+                    d="M8.24615732,3.74314458 C8.47957703,2.91387394 7.85644191,1.87835993 6.37675198,0.636602556 L4.09167955,8.75478364"
+                    id="Path-6" stroke-linecap="round" stroke-linejoin="round"
+                    transform="translate(6.192772, 4.695693) rotate(-7.000000) translate(-6.192772, -4.695693) "></path>
+                <ellipse id="Oval"
+                    transform="translate(2.663778, 9.073990) rotate(-14.000000) translate(-2.663778, -9.073990) "
+                    cx="2.66377817" cy="9.07399001" rx="1.90557652" ry="1.55894737"></ellipse>
+            </g>
+        </g>
+    </g>
+</svg>

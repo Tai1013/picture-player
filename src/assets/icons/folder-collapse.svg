@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="21" viewBox="0 0 20 21">
+  <defs>
+    <linearGradient id="ic_foldertree_folder_collapse-a" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#FEA101"/>
+      <stop offset="100%" stop-color="#FEB401"/>
+    </linearGradient>
+  </defs>
+  <path fill="url(#ic_foldertree_folder_collapse-a)" fill-rule="evenodd" d="M1,4.71428571 C1,3.76751186 1.76751186,3 2.71428571,3 L6.73481197,3 C7.4088191,3 8.02028095,3.3949561 8.29744577,4.00933813 L8.744,5 L15.2857143,5 C16.2324881,5 17,5.76751186 17,6.71428571 L17,15.2857143 C17,16.2324881 16.2324881,17 15.2857143,17 L2.71428571,17 C1.76751186,17 1,16.2324881 1,15.2857143 L1,4.71428571 Z" transform="translate(0 1)"/>
+</svg>

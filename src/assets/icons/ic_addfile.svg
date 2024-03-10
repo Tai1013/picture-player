@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.3.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="圖層_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 90 90" style="enable-background:new 0 0 90 90;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill-rule:evenodd;clip-rule:evenodd;fill:url(#Rectangle_3_);}
+	.st1{fill:#076645;}
+	.st2{fill-rule:evenodd;clip-rule:evenodd;fill:#076645;fill-opacity:0.7;}
+	.st3{fill:url(#Path_2137_3_);}
+	.st4{fill:url(#Path_2138_3_);}
+	.st5{filter:url(#filter-3);}
+	.st6{fill:none;stroke:#606060;stroke-width:17.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st7{fill-rule:evenodd;clip-rule:evenodd;fill:url(#Rectangle_5_);}
+	.st8{fill:#606060;}
+	.st9{display:none;fill-rule:evenodd;clip-rule:evenodd;fill:#003D66;fill-opacity:0.7;}
+	.st10{fill-rule:evenodd;clip-rule:evenodd;fill:url(#Rectangle_6_);}
+	.st11{fill:#FFFFFF;}
+	.st12{fill-rule:evenodd;clip-rule:evenodd;fill:url(#Rectangle_7_);}
+	.st13{fill:url(#Path_2137_4_);}
+	.st14{fill:url(#Path_2138_4_);}
+	.st15{fill:none;stroke:#606060;stroke-width:6.5625;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+</style>
+<filter  filterUnits="objectBoundingBox" height="169.1%" id="filter-3" width="175.4%" x="-37.7%" y="-24.7%">
+	<feOffset  dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+	<feGaussianBlur  in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2"></feGaussianBlur>
+	
+		<feColorMatrix  in="shadowBlurOuter1" type="matrix" values="0 0 0 0 0.00784313725   0 0 0 0 0.101960784   0 0 0 0 0.0666666667  0 0 0 0.15 0">
+		</feColorMatrix>
+</filter>
+<g id="Icon_feather-file-plus_2_" transform="translate(-4.5 -1.5)">
+	<linearGradient id="Path_2137_3_" gradientUnits="userSpaceOnUse" x1="12.221" y1="37.3872" x2="85.2197" y2="60.531">
+		<stop  offset="0" style="stop-color:#FFFFFF"/>
+		<stop  offset="0.5815" style="stop-color:#FFFFFF;stop-opacity:0.8499"/>
+		<stop  offset="1" style="stop-color:#FFFFFF;stop-opacity:0.75"/>
+	</linearGradient>
+	<path id="Path_2137_2_" class="st3" d="M57,9H25.9c-3.6,0-6.4,2.9-6.4,6.4v62.1c0,3.6,2.9,6.4,6.4,6.4h47.1c3.6,0,6.4-2.9,6.4-6.4
+		V31.5L57,9z"/>
+	<linearGradient id="Path_2138_3_" gradientUnits="userSpaceOnUse" x1="57" y1="20.25" x2="79.5" y2="20.25">
+		<stop  offset="0" style="stop-color:#FFFFFF"/>
+		<stop  offset="0.5815" style="stop-color:#FFFFFF;stop-opacity:0.8499"/>
+		<stop  offset="1" style="stop-color:#FFFFFF;stop-opacity:0.75"/>
+	</linearGradient>
+	<path id="Path_2138_2_" class="st4" d="M57,9v22.5h22.5"/>
+	<g class="st5">
+		<g id="Path_2140_4_">
+			<path d="M62.6,57.8c0,1.8-1.5,3.3-3.3,3.3h-6.6v6.6c0,1.8-1.5,3.3-3.3,3.3c-1.8,0-3.3-1.5-3.3-3.3V61h-6.6
+				c-1.8,0-3.3-1.5-3.3-3.3c0-1.8,1.5-3.3,3.3-3.3h6.6v-6.6c0-1.8,1.5-3.3,3.3-3.3c1.8,0,3.3,1.5,3.3,3.3v6.6h6.6
+				C61.2,54.5,62.6,55.9,62.6,57.8z"/>
+		</g>
+	</g>
+	<path id="Path_2139_1_" class="st15" d="M49.5,67.6V47.9"/>
+	<path id="Path_2140_1_" class="st15" d="M39.7,57.8h19.7"/>
+</g>
+</svg>

@@ -1,0 +1,36 @@
+@keyframes bounce-in-right {
+  0% {
+    opacity: 0;
+    transform: translateX(100%);
+    animation-timing-function: ease-in;
+  }
+  38% {
+    opacity: 1;
+    transform: translateX(0);
+    animation-timing-function: ease-out;
+  }
+  55% {
+    transform: translateX(65px);
+    animation-timing-function: ease-in;
+  }
+  72% {
+    transform: translateX(0);
+    animation-timing-function: ease-out;
+  }
+  81% {
+    transform: translateX(28px);
+    animation-timing-function: ease-in;
+  }
+  90% {
+    transform: translateX(0);
+    animation-timing-function: ease-out;
+  }
+  95% {
+    transform: translateX(8px);
+    animation-timing-function: ease-in;
+  }
+  100% {
+    transform: translateX(0);
+    animation-timing-function: ease-out;
+  }
+}

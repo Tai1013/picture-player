@@ -1,0 +1,88 @@
+:deep(.el-dialog).file-dialog {
+  .el-dialog__body {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .el-card {
+    height: 350px;
+    overflow: auto;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .el-card {
+      height: 200px;
+    }
+  }
+
+  .el-card__body {
+    --el-card-padding: 0;
+  }
+
+  .card-label {
+    .el-checkbox__input {
+      margin: 0 6px;
+    }
+
+    .el-text {
+      padding: 2px;
+    }
+  }
+
+  .el-checkbox,
+  .el-menu-item.is-active {
+    color: #332F49;
+  }
+
+  .el-checkbox__input.is-checked .el-checkbox__inner {
+    --el-checkbox-checked-bg-color: #332F49;
+    --el-checkbox-checked-input-border-color: #332F49;
+  }
+
+  .el-checkbox__inner:hover {
+    --el-checkbox-input-border-color-hover: #332F49;
+  }
+
+  .el-menu {
+    border-right: none;
+
+    .el-checkbox__input {
+      margin-right: 6px;
+    }
+  
+    .el-menu-item {
+      padding: 0 6px;
+    }
+  }
+
+  .folder-tree {
+    .el-card__body {
+      min-width: min-content;
+    }
+
+    .files-text {
+      color: #332F49;
+      padding: 0 6px;
+
+      &.active {
+        color: var(--el-menu-active-color);
+      }
+    }
+  }
+
+  .folder-files .el-checkbox__label {
+    padding: 0;
+    min-width: 0;
+  }
+
+  .file-selected-list .el-menu-item {
+    .remove-button {
+      display: none;
+    }
+
+    &:hover .remove-button {
+      margin-left: 6px;
+      display: flex;
+    }
+  }
+}
